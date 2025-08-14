@@ -1,6 +1,6 @@
 #### Submitted
 
-- <strong>Huang S.*</strong>(2025). A Real-time Concrete Crack Detection and Segmentation Model Based on YOLOv11. <strong>IEEE ACCESS</strong>.
+- <strong>Huang S.*</strong>, Liu Q., Chen C., et al(2025). A Real-time Concrete Crack Detection and Segmentation Model Based on YOLOv11. <strong>IEEE ACCESS</strong>.[[arXiv]](https://doi.org/10.1109/ACCESS.2025.3595175 )
 
 #### Published
 
