@@ -24,5 +24,5 @@ QQ: 2091085305
 2022-present: B.E., Materials Science and Engineering, Anhui University of Technology.
 
 #### Research Interests
-Nanomaterials, Deep Learning, Artificial Intelligence, Object Detection Algorithms, Computer Hardware.
+Nanomaterials, Deep Learning, Artificial Intelligence, Object Detection Algorithms, Computer Hardware, Computer vision.
 
