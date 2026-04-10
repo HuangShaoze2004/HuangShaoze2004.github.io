@@ -7,6 +7,11 @@ const section_names = ['home','experience',  'publications', 'awards']
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    if (window.location.protocol === 'file:') {
+        const warn = document.getElementById('local-file-warning');
+        if (warn) warn.classList.remove('d-none');
+    }
+
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
@@ -32,7 +37,10 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Yaml
     fetch(content_dir + config_file)
-        .then(response => response.text())
+        .then(response => {
+            if (!response.ok) throw new Error('config fetch failed');
+            return response.text();
+        })
         .then(text => {
             const yml = jsyaml.load(text);
             Object.keys(yml).forEach(key => {
@@ -44,20 +52,30 @@ window.addEventListener('DOMContentLoaded', event => {
 
             })
         })
-        .catch(error => console.log(error));
+        .catch(error => {
+            console.log(error);
+            const home = document.getElementById('home-md');
+            if (home && !home.innerHTML.trim()) {
+                home.innerHTML = '<p class="text-danger mb-0"><strong>无法加载配置：</strong>请用本地 HTTP 服务打开本站（见页面顶部黄条说明），不要双击用本地文件打开。</p>';
+            }
+        });
 
 
     // Marked
     marked.use({ mangle: false, headerIds: false })
     section_names.forEach((name, idx) => {
         fetch(content_dir + name + '.md')
-            .then(response => response.text())
+            .then(response => {
+                if (!response.ok) throw new Error(name + ' fetch failed');
+                return response.text();
+            })
             .then(markdown => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
             }).then(() => {
-                // MathJax
-                MathJax.typeset();
+                if (typeof MathJax !== 'undefined' && MathJax.typeset) {
+                    MathJax.typeset();
+                }
             })
             .catch(error => console.log(error));
     })

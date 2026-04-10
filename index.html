@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
+    <meta name="description" content="Huang Shaoze — Materials Science & Engineering; M.S. at USTC State Key Laboratory of Precision and Intelligent Chemistry (from 2026)." />
+    <meta name="author" content="Huang Shaoze" />
     <title id="title"></title>
 
     <!-- Icon -->
@@ -23,6 +23,7 @@
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
         rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;display=swap" rel="stylesheet" />
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
@@ -78,6 +79,9 @@
 </head>
 
 <body id="page-top">
+    <div id="local-file-warning" class="alert alert-warning text-center rounded-0 border-0 mb-0 py-2 px-3 d-none" role="alert" style="position: relative; z-index: 10001;">
+        <strong>提示：</strong>你是用「本地文件」直接打开的页面，浏览器会拦截对 <code>contents/</code> 的读取，所以正文会空白。请在项目根目录终端执行 <code>python3 -m http.server 8000</code>，浏览器访问 <code>http://localhost:8000</code> 即可正常显示。（部署到 GitHub Pages 后在线访问也会正常。）
+    </div>
     <!-- Navigation-->
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
@@ -165,7 +169,7 @@
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
         <div class="container px-5">
             <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
+                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;AWARDS</h2>
             </header>
             <div class="main-body" id="awards-md"></div>
 
@@ -180,6 +184,8 @@
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
                 <a id="github-link" href="https://github.com/HuangShaoze2004">Github</a>
+                <span class="mx-1">&middot;</span>
+                <a id="cv-link" href="static/assets/HuangShaoze_CV.pdf">Résumé (PDF)</a>
                 <span class="mx-1">&middot;</span>
                 <a id="license-link" href="https://github.com/HuangShaoze2004/HuangShaoze2004.github.io/blob/main/LICENSE">License</a>
             </div>
