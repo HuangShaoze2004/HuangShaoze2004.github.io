@@ -90,6 +90,10 @@ body {
     margin-bottom: 2.5rem;
 }
 
+#top-section-bg-text {
+    font-size: clamp(1.75rem, 4vw, 3.7rem);
+}
+
 .top-section .top-section-content {
     position: relative;
     z-index: 1;

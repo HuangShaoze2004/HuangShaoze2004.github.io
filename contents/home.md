@@ -3,7 +3,7 @@
 <div class="home-badges">
 <a href="https://github.com/HuangShaoze2004"><img src="https://img.shields.io/badge/HuangShaoze2004-github-1e3a5f?logo=github" alt="GitHub"></a>
 <a href="https://orcid.org/0009-0002-9114-1847"><img src="https://img.shields.io/badge/ORCID-0009--0002--9114--1847-0f766e?logo=ORCID&logoColor=white" alt="ORCID"></a>
-<a class="btn-cv" href="static/assets/HuangShaoze_CV.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> Résumé (PDF)</a>
+<a class="btn-cv" href="static/assets/HuangShaoze_Resume.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> Résumé (PDF)</a>
 </div>
 
 <div class="home-highlight">
@@ -11,7 +11,7 @@
 </div>
 
 <div class="home-intro">
-<p>My name is Huang Shaoze. I am a senior undergraduate in Materials Science and Engineering at Anhui University of Technology (September 2022 – June 2026). My bachelor’s thesis applies <strong>Bayesian optimization</strong> and <strong>Gaussian process regression</strong> to reaction-condition search for <strong>C–H selective borylation</strong> (see <a href="#experience">Experience</a>). I passed CET-6 and enjoy self-directed learning in C++, Python, and MATLAB, as well as scientific plotting.</p>
+<p>My name is Huang Shaoze. I am a senior undergraduate in Materials Science and Engineering at Anhui University of Technology (September 2022 – June 2026). My bachelor’s thesis applies <strong>Bayesian optimization</strong> and <strong>Gaussian process regression</strong> to reaction-condition search for <strong>C–H selective borylation</strong> (see <a href="#experience">Experience</a>). I passed CET-6 (written and spoken) and enjoy self-directed learning in C++, Python, and MATLAB, as well as scientific plotting. In 2026, I completed two algorithm-engineer internships building real-time computer-vision systems — YOLO-based detection and tracking, ReID, and face recognition — for a hospital operating room and an NVIDIA Jetson edge device.</p>
 <p>I have taken part in many academic competitions, with strong results in mathematical modeling and innovation contests, earning more than ten awards at the university level and above.</p>
 <p>In research, I have led a national-level innovation project and co-authored SCI papers. I have also studied deep learning in computer vision, improved YOLO-based models, and applied them in materials-related problems.</p>
 <p>I plan to join USTC’s State Key Laboratory of Precision and Intelligent Chemistry for my master’s training (2026.09–2029.06) and remain interested in doctoral study beyond that.</p>
@@ -20,7 +20,7 @@
 #### Contact
 
 <ul class="contact-list">
-<li><span class="contact-label">Email</span> <a href="mailto:szhuang0601@163.com">szhuang0601@163.com</a></li>
+<li><span class="contact-label">Email</span> <a href="mailto:huangshaoze.mail.ustc.edu.cn">huangshaoze.mail.ustc.edu.cn</a></li>
 <li><span class="contact-label">Tel</span> +86-177-5560-4601</li>
 <li><span class="contact-label">QQ</span> 2091085305</li>
 </ul>
@@ -28,7 +28,7 @@
 #### Education
 
 <ul class="edu-timeline">
-<li><span class="edu-period">Sep 2026 – Jun 2029 (expected)</span><span class="edu-detail"><strong>M.S.</strong>, State Key Laboratory of Precision and Intelligent Chemistry, University of Science and Technology of China (USTC).</span></li>
+<li><span class="edu-period">Sep 2026 – Jun 2029 (expected)</span><span class="edu-detail"><strong>M.S.</strong> in Physical Chemistry, State Key Laboratory of Precision and Intelligent Chemistry, University of Science and Technology of China (USTC).</span></li>
 <li><span class="edu-period">Sep 2022 – Jun 2026</span><span class="edu-detail"><strong>B.E.</strong>, Materials Science and Engineering, Anhui University of Technology.</span></li>
 </ul>
 
@@ -37,15 +37,15 @@
 <div class="skills-wrap">
 <div class="skill-group">
 <div class="skill-group-title">Programming &amp; workflow</div>
-<div class="skill-pills"><span class="skill-pill">Python</span><span class="skill-pill">C / C++</span><span class="skill-pill">MATLAB</span><span class="skill-pill">Linux</span><span class="skill-pill">Git / GitHub</span></div>
+<div class="skill-pills"><span class="skill-pill">Python</span><span class="skill-pill">C / C++</span><span class="skill-pill">MATLAB</span><span class="skill-pill">Linux</span><span class="skill-pill">Docker</span><span class="skill-pill">Git / GitHub</span></div>
 </div>
 <div class="skill-group">
 <div class="skill-group-title">Machine learning &amp; vision</div>
-<div class="skill-pills"><span class="skill-pill">PyTorch</span><span class="skill-pill">YOLO</span><span class="skill-pill">scikit-learn</span><span class="skill-pill">Feature engineering</span><span class="skill-pill">Bayesian optimization</span><span class="skill-pill">Gaussian processes</span></div>
+<div class="skill-pills"><span class="skill-pill">PyTorch</span><span class="skill-pill">YOLO</span><span class="skill-pill">OpenCV</span><span class="skill-pill">TensorRT</span><span class="skill-pill">scikit-learn</span><span class="skill-pill">Feature engineering</span><span class="skill-pill">Bayesian optimization</span><span class="skill-pill">Gaussian processes</span></div>
 </div>
 <div class="skill-group">
 <div class="skill-group-title">LLMs &amp; agents</div>
-<div class="skill-pills"><span class="skill-pill">LLM workflows</span><span class="skill-pill">MCP</span><span class="skill-pill">Prompt engineering</span><span class="skill-pill">Cursor / Claude Code</span></div>
+<div class="skill-pills"><span class="skill-pill">LLM workflows</span><span class="skill-pill">MCP</span><span class="skill-pill">Prompt engineering</span><span class="skill-pill">Custom Skills</span><span class="skill-pill">Claude Code</span><span class="skill-pill">Cursor</span><span class="skill-pill">Codex</span></div>
 </div>
 <div class="skill-group">
 <div class="skill-group-title">Lab &amp; characterization</div>

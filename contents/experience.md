@@ -1,6 +1,45 @@
 
 <div class="exp-card">
 
+#### Algorithm Engineer: Consumable Classification and Doctor Identification for Operating Rooms
+
+<div class="exp-meta">Internship · 上海和光同坤科技有限公司 (Shanghai Heguang Tongkun Technology Co., Ltd.) · 2026.04–2026.06</div>
+
+<div class="exp-body">
+
+I independently developed an end-to-end real-time vision system for a hospital operating room (delivered and in use at a hospital in Kunming, Yunnan). The system runs two parallel modules on live **RTSP** video streams:
+
+<ul class="exp-bullets">
+<li><strong>Consumable classification:</strong> <strong>YOLO</strong> hand detection plus <strong>ByteTrack</strong> multi-object tracking; an <strong>IoU</strong> threshold decides when the hand enters the preset basket <strong>ROI</strong>, triggering a contact event that caches raw BGR frames in a ring buffer. A good/bad-frame gating model selects high-quality frames, and a <strong>41-class consumable classifier</strong> identifies the consumables, with configurable whitelist filtering.</li>
+<li><strong>Doctor identification:</strong> a parallel identity-recognition track — <strong>YOLO11n</strong> person detection with <strong>ReID</strong> for cross-frame / cross-camera matching, plus <strong>InsightFace</strong> face recognition built on a doctor face-feature gallery with a <strong>KNN</strong> classifier for authentication.</li>
+</ul>
+
+I owned the full pipeline — data collection and annotation, algorithm design, model training and tuning, and Linux deployment.
+
+<strong>Stack:</strong> Python, PyTorch, YOLO, ByteTrack, InsightFace, ReID, OpenCV, RTSP.
+
+</div>
+
+</div>
+
+<div class="exp-card">
+
+#### Edge Deployment Engineer: Intelligent Human-Presence Lighting Control on Jetson Nano
+
+<div class="exp-meta">Internship · 重庆九畴能源科技有限公司 (Chongqing Jiuchou Energy Technology Co., Ltd.) · 2026.06–2026.07</div>
+
+<div class="exp-body">
+
+Built a lightweight intelligent human-presence sensing lighting control system on an <strong>NVIDIA Jetson Nano B01</strong> edge board. A CSI camera captures indoor frames; a fine-tuned <strong>YOLOv26n</strong> model detects and localizes human targets in real time. When a person is present, a <strong>GPIO</strong> high-level signal drives a relay to switch the lights on; when the person leaves, the signal is delayed and cut so the lights turn off automatically. To fit the limited compute budget, I converted the trained PyTorch model to a <strong>TensorRT</strong> engine with <strong>FP16</strong> quantization and layer fusion, achieving stable <strong>25–30 FPS</strong> inference at 720P, and resolved memory-growth and thermal-throttling issues for reliable unattended operation.
+
+<strong>Stack:</strong> TensorRT, OpenCV, NVIDIA Jetson Nano B01, Linux, GPIO, CSI, ONNX.
+
+</div>
+
+</div>
+
+<div class="exp-card">
+
 #### Bachelor's Thesis: Intelligent Optimization for C–H Selective Borylation via Bayesian Optimization
 
 <div class="exp-meta">Undergraduate thesis · Anhui University of Technology · 2025–2026</div>
